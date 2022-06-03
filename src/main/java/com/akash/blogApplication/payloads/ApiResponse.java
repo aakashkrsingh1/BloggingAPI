@@ -17,4 +17,8 @@ public class ApiResponse {
     private boolean success;
     private long time;
 
+    public ApiResponse(String message, boolean success) {
+        this.message = message;
+        this.success = success;
+    }
 }
